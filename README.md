@@ -47,8 +47,8 @@ addinformation
 3⃣ Running the Project
 
 Clone the repository:
-
-git clone https://github.com/YOUR_GITHUB_USERNAME/Census-Management-System.git
+[
+git clone https://github.com/YOUR_GITHUB_USERNAME/Census-Management-System.git](https://github.com/Spandana-06/Census_Management)
 cd Census-Management-System
 
 Open the project in NetBeans or your preferred IDE.
