@@ -1,27 +1,62 @@
-# Census Management System
-The Census Management System is an open-source code designed to streamline the collection, organization, and analysis of census data. It provides a user-friendly interface for managing demographic information, generating reports, and extracting valuable insights about population characteristics and trends.
+📊 Census Management System
 
-# Features
-**Data Collection:** Easily capture and store demographic data from individuals or households, including personal details. <br />
-**Data Validation:** Implement validation rules to ensure data accuracy and completeness during the collection process. <br />
-**Data Storage:** Securely store and manage collected census data in a local database or file system. <br />
-**User Management:** Assign user roles and permissions to control access to the system, ensuring data privacy and security. <br />
-**Customization:** Extend and customize the system according to specific requirements, such as adding additional data fields.
+The Census Management System is an open-source Java-based application designed to facilitate the collection, organization, and analysis of census data. It enables users to manage demographic information efficiently, generate reports, and gain insights into population characteristics and trends.
 
-# Technologies:
-* Java
-* Java GUI
-* MySQL
+🚀 Features
 
-# How to use
-* First, you need an **IDE** which can run **Java**. **[Recommended: NetBeans]**
-* Second, you need to use a **MySQL** server to store data in your local host. For this project you need to create three table to store data. Here is the schema:
-  1. **register_admin_account (Name, Admin_UserName, Email,Phone, Pass_Word)**
-  2. **register_user_account (Name ,User_UserName ,Email ,Phone,Pass_Word,Admin_UserName)**
-  3. **addinformation (RegID, Name, FatherName, DateofBirth, NIDNo, Gender, BloodGroup, Address, ContactNumber,Nationality,User_UserName)**
-* Download this project in your pc and open it with your **IDE** at the same time you need to start your **MySQL** server otherwise the code will show **error** when you need to find any people with their information.
-* Here you go to run the project well.
+✔ Data Collection – Capture and store personal details of individuals or households.✔ Data Validation – Ensure accuracy and completeness with built-in validation rules.✔ Data Storage – Securely manage census data in a MySQL database.✔ User Management – Role-based access control for privacy and security.✔ Customization – Easily extend and adapt the system to specific needs.
 
-# Contact
-The project is created by <a href="https://github.com/7omahawk" target="_blank"> @7omahawk </a> & <a href="https://github.com/Abdullah-Al-Sami" target="_blank"> @Abdullah-Al-Sami </a>. <br />
-If you have any questions, feedback, or inquiries regarding the Census Management System, please contact our team at [ahulr.official@gmail.com, abdullah.al.sami05@gmail.com].
+🛠 Technologies Used
+
+Java (Core functionality & GUI)
+
+Java Swing/AWT (User Interface)
+
+MySQL (Database)
+
+Apache Ant (Build Automation)
+
+📂 Project Structure
+
+build.xml – Contains Apache Ant build instructions.
+
+manifest.mf – Defines metadata for JAR packaging.
+
+Create Table Query.txt – SQL scripts for creating necessary tables.
+
+LICENSE.txt – MIT License for open-source usage.
+
+README.md – Documentation for the project.
+
+📌 Installation & Setup
+
+1⃣ Prerequisites
+
+Ensure you have the following installed:✅ Java Development Kit (JDK) 8+✅ MySQL Server✅ NetBeans (or another Java-supporting IDE)
+
+2⃣ Database Setup
+
+Run the SQL commands from Create Table Query.txt to create:
+
+register_admin_account
+
+register_user_account
+
+addinformation
+
+3⃣ Running the Project
+
+Clone the repository:
+
+git clone https://github.com/YOUR_GITHUB_USERNAME/Census-Management-System.git
+cd Census-Management-System
+
+Open the project in NetBeans or your preferred IDE.
+
+Start your MySQL server.
+
+Run the project using your IDE's build & run commands.
+
+📝 License
+
+This project is licensed under the MIT License. See LICENSE.txt for details.
